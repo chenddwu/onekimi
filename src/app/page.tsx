@@ -161,9 +161,7 @@ export default function AIHubHomepage() {
   target="_blank"
   rel="noopener noreferrer"
   className="block w-full bg-white text-black py-3 rounded-xl font-semibold hover:scale-[1.02] transition text-center"
-  访问工具
-</a>
-  >
+>
   访问工具
 </a>
             </div>
