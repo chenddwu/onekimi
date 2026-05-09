@@ -1,3 +1,4 @@
+import tools from '../../data/tools.json'
 // 支持后台 JSON 批量导入 AI 工具数据
 // 数据格式示例：
 // [
@@ -15,58 +16,7 @@
 // Content-Type: application/json
 
 export default function AIHubHomepage() {
-  const tools = [
-    {
-      name: 'ChatGPT',
-      desc: 'AI 对话与内容生成工具',
-      tag: 'AI对话',
-    },
-    {
-      name: 'Midjourney',
-      desc: 'AI 绘画与视觉创作平台',
-      tag: 'AI绘画',
-    },
-    {
-      name: 'Claude',
-      desc: '长文本 AI 助手',
-      tag: 'AI办公',
-    },
-    {
-      name: 'Runway',
-      desc: 'AI 视频生成平台',
-      tag: 'AI视频',
-    },
-  ]
 
-  const news = [
-    {
-      title: 'OpenAI 发布新模型，AI Agent 能力再升级',
-      source: 'OpenAI',
-    },
-    {
-      title: '国内 AI 视频生成工具持续爆发',
-      source: 'AIbase',
-    },
-    {
-      title: 'AI 编程工具正在改变开发方式',
-      source: 'Github Trending',
-    },
-  ]
-
-  const projects = [
-    {
-      title: '用 AI 批量生成短视频账号',
-      author: 'AI 创作者',
-    },
-    {
-      title: 'AI 自动生成 PPT 工作流',
-      author: '独立开发者',
-    },
-    {
-      title: 'AI 电商图片生成项目',
-      author: '运营团队',
-    },
-  ]
 
   return (
     <div className="min-h-screen bg-black text-white">
@@ -202,9 +152,14 @@ export default function AIHubHomepage() {
                 {tool.desc}
               </p>
 
-              <button className="w-full bg-white text-black py-3 rounded-xl font-semibold hover:scale-[1.02] transition">
-                访问工具
-              </button>
+<a
+  href={tool.url}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="block w-full bg-white text-black py-3 rounded-xl font-semibold hover:scale-[1.02] transition text-center"
+>
+  访问工具
+</a>
             </div>
           ))}
         </div>

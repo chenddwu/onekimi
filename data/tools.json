@@ -1,0 +1,30 @@
+[
+  {
+    "name": "ChatGPT",
+    "url": "https://chat.openai.com",
+    "category": "AI对话",
+    "desc": "OpenAI 推出的 AI 对话工具",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg"
+  },
+  {
+    "name": "Claude",
+    "url": "https://claude.ai",
+    "category": "AI办公",
+    "desc": "Anthropic 推出的 AI 助手",
+    "icon": "https://claude.ai/images/claude_app_icon.png"
+  },
+  {
+    "name": "Midjourney",
+    "url": "https://www.midjourney.com",
+    "category": "AI绘画",
+    "desc": "热门 AI 绘画工具",
+    "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968705.png"
+  },
+  {
+    "name": "Runway",
+    "url": "https://runwayml.com",
+    "category": "AI视频",
+    "desc": "AI 视频生成平台",
+    "icon": "https://seeklogo.com/images/R/runway-logo-5D2D84A5B3-seeklogo.com.png"
+  }
+]
