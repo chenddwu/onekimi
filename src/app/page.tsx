@@ -141,7 +141,7 @@ export default function AIHubHomepage() {
               <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-blue-500 to-purple-500 mb-5"></div>
 
               <div className="inline-flex px-3 py-1 rounded-full bg-white/10 text-xs mb-4 text-gray-300">
-                {tool.tag}
+               {tool.category}
               </div>
 
               <h3 className="text-2xl font-bold mb-3">
