@@ -138,7 +138,11 @@ export default function AIHubHomepage() {
               key={index}
               className="group border border-white/10 bg-white/5 rounded-3xl p-6 hover:bg-white/10 transition hover:-translate-y-2"
             >
-              <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-blue-500 to-purple-500 mb-5"></div>
+             <img
+		  src={tool.icon}
+  		alt={tool.name}
+		  className="w-14 h-14 rounded-2xl mb-5 object-cover bg-white p-2"
+/>
 
               <div className="inline-flex px-3 py-1 rounded-full bg-white/10 text-xs mb-4 text-gray-300">
                {tool.category}
@@ -157,7 +161,9 @@ export default function AIHubHomepage() {
   target="_blank"
   rel="noopener noreferrer"
   className="block w-full bg-white text-black py-3 rounded-xl font-semibold hover:scale-[1.02] transition text-center"
->
+  访问工具
+</a>
+  >
   访问工具
 </a>
             </div>
